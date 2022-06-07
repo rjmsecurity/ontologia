@@ -1,0 +1,43 @@
+> 1.5 Given a scenario, use Microsoft operating system features and tools. 
+
+# Disk Management 
+
+- this utility is for managing anything to do with the disks on individual computers and file servers
+- Computer Management > Storage > Disk Management
+- warning: data can be erased, so know what you're doing in this utility
+- Drive status 
+	- in the utility, each disk has a: 
+		- volume name: *Windows 10*
+		- drive letter if one is assigned: *C:*
+		- drive size: *40.00 GB*
+		- type of file system on the drive: *NTFS*
+		- status: *Healthy*
+	- *Healthy (At Risk)* status means it's functioning but has experienced input/output errors, so it's possible that drive could be failing
+	- *Initializing* is another status and it's normal when you're working with a new drive
+	- *Failed* is a status that shows when the drive cannot be started
+	- if that's the case the disk is damaged or the file system is corrupted
+	- *Failed Redundancy* shows when you have a RAID 1 or RAID 5 array and a disk has failed
+	- if that case you need to replace the bad drive
+	- *Resynching* is when you have a mirrored (RAID 1) array and you have a new drive and all the info needs to be copied to it
+	- *Regenerating* is when you have RAID 5 and the data isn't simply being copied but being recreated or rebuilt based on the parity that's now missing on that bad drive
+- Mounting 
+	- fact: you are always running out of space on your computer
+	- mounting is one way to extend space
+	- instead of a new drive looking like a completely separate drive, to the user it looks just like a folder in the existing drive structure
+	- mounting is the alternative to creating a separate drive and creating a separate share from that drive
+	- Disk Management > right click the new volume > Change drive letter and paths > Add > Mount in empty NTFS folder > browse 
+	- you can select a folder in your file system such as an empty Documents folder 
+	- so you *mount* a drive into a folder
+- Initializing: see the drive statuses above
+- Extending partitions 
+	- opposite of shrinking described below, you right click a volume on a drive and select extend volume
+	- the new disk will be preselected
+	- just type the amount of space you want to add, say 20 GB (20000 MB)
+- Splitting partitions 
+- Shrink partitions 
+	- you need additional drive space for something different than what you originally planned
+	- maybe you really only need 60 GB instead of 120 GB
+	- right click on the 120 GB volume and select shrink partition
+	- if you have some data written in there then the available shrink space will be smaller, it'll say in the dialog box
+- Assigning/changing drive letters 
+- Adding drives 
