@@ -8,7 +8,6 @@
 - `chmod u+x script.sh` means the owner (`u`) is now allowed (`+`) to execute the file (`x`)
 - also from experience I know `chmod a+x` is the same as `chmod +x` 
 
-- `chmod 744 script.sh` sets the owner's permissions to `7`, the group associated with the file to `4`, and everyone else not part of the user or group to `4`
 \# | Permission | r w x
 -- | - | -
 0 | none | - - - 
@@ -19,5 +18,7 @@
 5 | read and execute | r - x
 6 | read and write | r w -
 7 | read, write, and execute | r w x
+
+- `chmod 744 script.sh` sets the owner's permissions to `7`, the group associated with the file to `4`, and everyone else not part of the user or group to `4`
 - as you can see it's like binary 
 - `-rwxr--r-- 1 professor staff 8980 Aug 8 10:27 script.sh` this output translates back to `744` 

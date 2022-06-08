@@ -21,7 +21,3 @@ Another reason why I took more notes on the 1002 is because it's Windows-focused
 Best of luck on your journey,
 
 Cybervulcan
-
-==testing to see if this is highlighted in Github==
-
-[also wow]: this looks like it's for citations
