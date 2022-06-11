@@ -11,7 +11,7 @@ But as I turn this outline into a reference manual to use on the job, I will com
 
 The beauty of organized markdown files is that they're just interlinked concept bubbles. Your own personal Google. An index. A web.
 I hope this resource helps you as a student or professional. 
-I recommend you open this repo in Obsidian. 
+***I recommend you open this repo in [Obsidian](https://obsidian.md/).*** 
 The READMEs tie everything together by linking to each article, like a Table of Contents. 
 
 Before tech support, I was already learning about pentesting and web app bug bounties, so I know about ports and commands. 
