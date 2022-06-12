@@ -6,12 +6,12 @@ Let's not waste any spacetime, here are the objectives linked to all the relevan
 
 - OSI model ==> [OSI](../CompTIA%20A+%201001/OSI.md)
 	- [Layer 1 – Physical](1.1%20OSI%20model/Layer%201%20–%20Physical.md)
-	- Layer 2 – Data link
-	- Layer 3 – Network
-	- Layer 4 – Transport
-	- Layer 5 – Session
-	- Layer 6 – Presentation
-	- Layer 7 – Application
+	- [Layer 2 – Data link](1.1%20OSI%20model/Layer%202%20–%20Data%20link.md)
+	- [Layer 3 – Network](1.1%20OSI%20model/Layer%203%20–%20Network.md)
+	- [Layer 4 – Transport](1.1%20OSI%20model/Layer%204%20–%20Transport.md)
+	- [Layer 5 – Session](1.1%20OSI%20model/Layer%205%20–%20Session.md)
+	- [Layer 6 – Presentation](1.1%20OSI%20model/Layer%206%20–%20Presentation.md)
+	- [Layer 7 – Application](1.1%20OSI%20model/Layer%207%20–%20Application.md)
 - Data encapsulation and decapsulation within the OSI model context
 	- Ethernet header
 	- Internet Protocol (IP) header
