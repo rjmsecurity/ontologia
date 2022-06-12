@@ -2,7 +2,9 @@
 
 Note: this document is my edited version of the [official objectives PDF by CompTIA](https://www.comptia.jp/pdf/comptia-a-220-1002-exam-objectives.pdf).
 
-[About the A+](About%20the%20A+.md)
+[About the A+](../CompTIA%20A+%201001/About%20the%20A+.md)
+
+[Resources](../CompTIA%20A+%201001/resources.md)
 
 DOMAIN | PERCENTAGE OF EXAMINATION 
 -- | -

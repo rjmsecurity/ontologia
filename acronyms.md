@@ -418,7 +418,7 @@ VLAN | Virtual Local Area Network
 VM | Virtual Machine
 VNC | Virtual Network Computer/Computing
 vNIC | virtual Network Interface Card
-VoIP|  Voice over Internet Protocol
+VoIP | Voice over Internet Protocol
 VPN | Virtual Private Network
 VRAM | Video Random Access Memory
 VRRP | Virtual Router Redundancy Protocol

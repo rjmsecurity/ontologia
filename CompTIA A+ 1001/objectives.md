@@ -4,6 +4,8 @@ Note: this document is copied from the [official objectives PDF by CompTIA](http
 
 [About the A+](About%20the%20A+.md)
 
+[Resources](resources.md)
+
 DOMAIN | PERCENTAGE OF EXAMINATION 
 -- | -
 1.0 Mobile Devices | 14% 
@@ -501,7 +503,7 @@ Total | 100%
 ### 3.11 Given a scenario, install and maintain various print technologies.
 - Laser 
 	- Imaging drum, fuser assembly, transfer belt, transfer roller, pickup rollers, separate pads, duplexing assembly 
-	- [printers.md](printers.md)
+	- [printers.md](laser%20printing.md)
 	- Maintenance: Replace toner, apply maintenance kit, calibrate, clean 
 - Inkjet 
 	- Ink cartridge, print head, roller, feeder, duplexing assembly, carriage, and belt 

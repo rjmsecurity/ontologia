@@ -499,7 +499,7 @@ This is a copy of [objectives.md](objectives.md) but with my notes for each bull
 ### 3.11 Given a scenario, install and maintain various print technologies.
 - Laser 
 	- Imaging drum, fuser assembly, transfer belt, transfer roller, pickup rollers, separate pads, duplexing assembly — imaging drum is what laser hits so that toner attracts to it
-	- [printers.md](printers.md)
+	- [printers.md](laser%20printing.md)
 	- Maintenance: Replace toner, apply maintenance kit, calibrate, clean 
 - Inkjet 
 	- Ink cartridge, print head, roller, feeder, duplexing assembly, carriage, and belt 
