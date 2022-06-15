@@ -4,7 +4,7 @@ Let's not waste any spacetime, here are the objectives linked to all the relevan
 
 #### 1.1 Compare and contrast the Open Systems Interconnection (OSI) model layers and encapsulation concepts.
 
-- OSI model ==> [OSI](../CompTIA%20A+%201001/OSI.md)
+- OSI model ==> [OSI](../CompTIA%20A+%201001/OSI.md) and [Wireshark](1.1%20OSI%20model/Wireshark.md)
 	- [Layer 1 – Physical](1.1%20OSI%20model/Layer%201%20–%20Physical.md)
 	- [Layer 2 – Data link](1.1%20OSI%20model/Layer%202%20–%20Data%20link.md)
 	- [Layer 3 – Network](1.1%20OSI%20model/Layer%203%20–%20Network.md)
