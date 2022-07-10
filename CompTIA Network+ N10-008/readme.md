@@ -12,7 +12,7 @@ Let's not waste any spacetime, here are the objectives linked to all the relevan
 	- [Layer 5 – Session](1.1%20OSI%20model/Layer%205%20–%20Session.md)
 	- [Layer 6 – Presentation](1.1%20OSI%20model/Layer%206%20–%20Presentation.md)
 	- [Layer 7 – Application](1.1%20OSI%20model/Layer%207%20–%20Application.md)
-- Data encapsulation and decapsulation within the OSI model context
+- Data encapsulation and decapsulation within the OSI model context ==> [PDU](PDU.md)
 	- Ethernet header
 	- Internet Protocol (IP) header
 	- Transmission Control Protocol (TCP)/User Datagram Protocol (UDP) headers

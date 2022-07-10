@@ -69,6 +69,7 @@ DC | Direct Current
 DDoS | Distributed Denial of Service
 DDR | Double Data Rate
 DDR RAM | Double Data Rate Random Access Memory
+DFIR | Digital Forensics and Incident Response
 DFS | Distributed File System
 DHCP | Dynamic Host Configuration Protocol
 DIMM | Dual Inline Memory Module
@@ -111,8 +112,9 @@ ESP | Encapsulating Security Payload
 EUI | Extended Unique Identifier
 EULA | End User License Agreement  
 EVGA | Extended Video Graphics Adapter/Array  
-Ext2 | Second Extended File System  
-exFAT | Extended File Allocation Table  
+exFAT | Extended File Allocation Table
+EXIF | Exchangeable Image File Format
+Ext2 | Second Extended File System    
 FAT | File Allocation Table  
 FAT12 | 12-bit File Allocation Table  
 FAT16 | 16-bit File Allocation Table  
@@ -156,6 +158,7 @@ ICR | Intelligent Character Recognition
 ICS | Industrial Control System
 IDE | Integrated Drive Electronics
 IDF | Intermediate Distribution Frame
+IDOR | Insecure Direct Object Reference
 IDS | Intrusion Detection System
 IEEE | Institute of Electrical and Electronics Engineers
 IGMP | Internet Group Management Protocol
@@ -249,6 +252,7 @@ NiMH | Nickel Metal Hydride
 NLX | New Low-profile Extended  
 NNTP | Network News Transfer Protocol  
 NS | Name Server
+NSM | Network Security Monitoring
 NTFS | New Technology File System  
 NTLDR | New Technology Loader  
 NTP | Network Time Protocol  
@@ -362,6 +366,7 @@ SMB | Server Message Block
 SMTP | Simple Mail Transfer Protocol  
 SNMP | Simple Network Management Protocol  
 SOA | Start of Authority
+SOC | Security Operations Center
 SoDIMM | Small Outline Dual Inline Memory Module  
 SOHO | Small Office/Home Office  
 SP | Service Pack  

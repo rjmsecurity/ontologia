@@ -153,6 +153,7 @@ Total | 100%
 - TCP vs. UDP
 
 ### 2.2 Compare and contrast common networking hardware devices. 
+- [OSI.md](OSI.md)
 - Routers
 - Switches 
 	- Managed
