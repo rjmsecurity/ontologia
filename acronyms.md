@@ -1,8 +1,9 @@
 # Acronyms and abbreviations
-Acronym | Spelled out
--- | -
-AAAA | Authentication, Authorization, Accounting, Auditing
-AC | Alternating Current
+
+Acronym | Spelled out | Learn more
+-- | - | -
+AAAA | Authentication, Authorization, Accounting, Auditing | [AAAA](Concepts/Security/AAAA.md)
+AC | Alternating Current | [Power](Concepts/Systems/Power.md)
 ACL | Access Control List
 ACPI | Advanced Configuration Power Interface
 ADF | Automatic Document Feeder
@@ -27,7 +28,7 @@ BD-R | Blu-ray Disc Recordable
 BD-RE | Blu-ray Disc Rewritable
 BGP | Border Gateway Protocol
 BIOS | Basic Input/Output System
-BNC | British Naval Connector/Bayonet Neill-Concelman
+BNC | British Naval Connector<br>Bayonet Neill-Concelman
 BSOD | Blue Screen Of Death
 BYOD | Bring Your Own Device
 CAD | Computer-Aided Design
@@ -40,7 +41,7 @@ CD-ROM | Compact Disc-Read-Only Memory
 CD-RW | Compact Disc-Rewritable 
 CDFS | Compact Disc File System 
 CERT | Computer Emergency Response Team 
-CFS | Central File System, Common File System, or Command File System
+CFS | Central File System<br>Common File System<br>Command File System
 CGA | Computer Graphics and Applications
 CIA | Confidentiality, Integrity, and Availability
 CIDR | Classless Inter-Domain Routing
@@ -59,13 +60,13 @@ CSMA/CD | Carrier-Sense Multiple Access with Collision Detection
 CSU | Channel Service Unit
 CVE | Common Vulnerabilities and Exposures
 CWDM | Coarse Wavelength Division Multiplexing
-DaaS | Data as a Service/Desktop as a Service
+DaaS | Data as a Service<br>Desktop as a Service
 DAC | Discretionary Access Control
 dB | Decibel
 DB-25 | Serial Communications D-Shell Connector, 25 pins
 DB-9 | Serial Communications D-Shell Connector, 9 pins
 DBaaS | Database as a Service
-DC | Direct Current
+DC | Direct Current | [Power](Concepts/Systems/Power.md)
 DDoS | Distributed Denial of Service
 DDR | Double Data Rate
 DDR RAM | Double Data Rate Random Access Memory
@@ -75,10 +76,10 @@ DHCP | Dynamic Host Configuration Protocol
 DIMM | Dual Inline Memory Module
 DIN | Deutsche Industrie Norm
 DLT | Digital Linear Tape
-DLP | Digital Light Processing or Data Loss Prevention
+DLP | Digital Light Processing<br>Data Loss Prevention
 DMA | Direct Memory Access
 DMZ | Demilitarized Zone
-DNS | Domain Name Service/System/Server 
+DNS | Domain Name System<br>Domain Name Server<br>Domain Name Service 
 DoS | Denial of Service
 DRAM | Dynamic Random Access Memory
 DRM | Digital Rights Management
@@ -111,7 +112,7 @@ ESD | Electrostatic Discharge
 ESP | Encapsulating Security Payload
 EUI | Extended Unique Identifier
 EULA | End User License Agreement  
-EVGA | Extended Video Graphics Adapter/Array  
+EVGA | Extended Video Graphics Adapter<br>Extended Video Graphics Array  
 exFAT | Extended File Allocation Table
 EXIF | Exchangeable Image File Format
 Ext2 | Second Extended File System    
@@ -137,7 +138,7 @@ GPU | Graphics Processing Unit
 GRE | Generic Routing Encapsulation
 GSM | Global System for Mobile Communications
 HA | High Availability
-HaaS | Hardware as a Service
+HaaS | Hardware as a Service | [Cloud Models](Concepts/Cloud/Cloud%20models.md)
 HAL | Hardware Abstraction Layer  
 HAV | Hardware Assisted Virtualization  
 HCL | Hardware Compatibility List  
@@ -149,10 +150,10 @@ HPFS | High Performance File System
 HTML | Hypertext Markup Language  
 HTPC | Home Theater PC
 HTTP | Hypertext Transfer Protocol
-HTTPS | Hypertext Transfer Protocol Secure/over SSL/over TLS
+HTTPS | Hypertext Transfer Protocol Secure<br>Hypertext Transfer Protocol over SSL<br>Hypertext Transfer Protocol over TLS
 HVAC | Heating, Ventilation, and Air Conditioning
 I/O | Input/Output
-IaaS | Infrastructure as a Service
+IaaS | Infrastructure as a Service | [Cloud Models](Concepts/Cloud/Cloud%20models.md)
 ICMP | Internet Control Message Protocol
 ICR | Intelligent Character Recognition
 ICS | Industrial Control System
@@ -163,7 +164,7 @@ IDS | Intrusion Detection System
 IEEE | Institute of Electrical and Electronics Engineers
 IGMP | Internet Group Management Protocol
 IIS | Internet Information Services
-IMAP | Internet Mail Access Protocol/Internet Message Access Protocol
+IMAP | Internet Mail Access Protocol<br>Internet Message Access Protocol
 IMAPS | Internet Message Access Protocol Secure
 IMEI | International Mobile Equipment Identity
 IMSI | International Mobile Subscriber Identity
@@ -192,7 +193,7 @@ KVM | Keyboard-Video-Mouse
 LACP | Link Aggregation Control Protocol
 LAN | Local Area Network
 LBA | Logical Block Addressing
-LC | Lucent Connector/Local Connector
+LC | Lucent Connector<br>Local Connector
 LCD | Liquid Crystal Display
 LDAP | Lightweight Directory Access Protocol
 LDAPS | Lightweight Directory Access Protocol (over SSL)
@@ -201,11 +202,11 @@ LPD/LPR | Line Printer Daemon/Line Printer Remote
 LPT | Line Printer Terminal
 LTE | Long-Term Evolution
 LVD | Low Voltage Differential
-MAC | Media Access Control/Mandatory Access Control/Medium Access Control
+MAC | Media Access Control<br>Mandatory Access Control<br>Medium Access Control
 MAN | Metropolitan Area Network
 MAPI | Messaging Application Programming Interface
 mATX | Micro Advanced Technology Extended
-MAU | Media Access Unit/Media Attachment Unit
+MAU | Media Access Unit<br>Media Attachment Unit
 MBR | Master Boot Record
 MBSA | Microsoft Baseline Security Analyzer
 MDF | Main Distribution Frame
@@ -264,14 +265,16 @@ OID | Object Identifier
 OLED | Organic Light Emitting Diode
 OPC | Organic Photoconductor (e.g. OPC drum)
 OS | Operating System 
-OSI | Open Systems Interconnection
+OSI | Open Systems Interconnection | [OSI Model](Concepts/Networks/OSI%20model.md)
+OSINT | Open Source Intelligence
 OSPF | Open Shortest Path First
 OTDR | Optical Time Domain Reflectometer
-PaaS | Platform as a Service  
+PaaS | Platform as a Service | [Cloud Models](Concepts/Cloud/Cloud%20models.md)
 PAL | Phase Alternating Line  
 PAN | Personal Area Network  
 PAT | Port Address Translation  
-PC | Personal Computer  
+PC | Personal Computer
+PCDATA (#PCDATA) | parseable character data (XML)
 PCI | Peripheral Component Interconnect  
 PCI | Payment Card Industry
 PCIe | Peripheral Component Interconnect Express
@@ -279,7 +282,7 @@ PCIX | Peripheral Component Interconnect Extended
 PCL | Printer Command Language
 PCMCIA | Personal Computer Memory Card International Association
 PDF | Portable Document Format
-PDU | Power Distribution Unit
+PDU | Power Distribution Unit<br>Protocol Data Unit | [PDU](Concepts/Networks/PDU.md)
 PE | Preinstallation Environment
 PGA | Pin Grid Array
 PGA2 | Pin Grid Array 2
@@ -311,8 +314,8 @@ PXE | Preboot Execution Environment
 QoS | Quality of Service
 QSFP | Quad Small Form-factor Pluggable
 RA | Router Advertisements
-RADIUS | Remote Authentication Dial-In User Server/Service
-RAID | Redundant Array of Independent (or Inexpensive) Disks
+RADIUS | Remote Authentication Dial-In User Server<br>Remote Authentication Dial-In User Service
+RAID | Redundant Array of Independent (or Inexpensive) Disks | [RAID arrays](Concepts/Systems/RAID%20arrays.md)
 RAM | Random Access Memory
 RAS | Remote Access Service
 RDP | Remote Desktop Protocol
@@ -322,7 +325,7 @@ RFI | Radio Frequency Interference
 RFID | Radio Frequency Identification
 RG | Radio Guide
 RGB | Red Green Blue
-RIP | Routing Information Protocol/Routing Internet Protocol
+RIP | Routing Information Protocol<br>Routing Internet Protocol
 RIS | Remote Installation Service
 RISC | Reduced Instruction Set Computer
 RJ | Registered Jack
@@ -335,11 +338,11 @@ RSSI | Received Signal Strength Indication
 RTC | Real-Time Clock  
 RTO | Recovery Time Objective  
 RTSP | Real Time Streaming Protocol
-SaaS | Software as a Service  
+SaaS | Software as a Service | [Cloud Models](Concepts/Cloud/Cloud%20models.md)
 SAN | Storage Area Network  
 SAS | Serial Attached SCSI  
 SATA | Serial Advanced Technology Attachment  
-SC | Subscription Channel/Standard Connector/Subscriber Connector
+SC | Subscription Channel<br>Standard Connector<br>Subscriber Connector
 SCADA | Supervisory Control and Data Acquisition
 SCP | Secure Copy Protection  
 SCSI | Small Computer System Interface  
@@ -348,7 +351,6 @@ SD card | Secure Digital Card
 SDN | Software-Defined Network
 SDWAN | Software-Defined WAN
 SEC | Single Edge Connector 
-SF | San Francisco
 SFC | System File Checker  
 SFF | Small Form Factor  
 SFP | Small Form-factor Pluggable
@@ -359,7 +361,7 @@ SIMM | Single In-Line Memory Module
 SIP | Session Initiation Protocol
 SLA | Service Level Agreement
 SLAAC | Stateless Address Auto-Configuration
-SLI | Scalable Link Interface or System Level Integration or Scanline Interleave Mode  
+SLI | Scalable Link Interface<br>System Level Integration<br>Scanline Interleave Mode  
 SLP | Service Location Protocol
 S.M.A.R.T. | Self-Monitoring, Analysis,  and Reporting Technology  
 SMB | Server Message Block  
@@ -380,8 +382,8 @@ SSH | Secure Shell protocol
 SSID | Service Set Identifier  
 SSL | Secure Sockets Layer  
 SSO | Single Sign-On  
-ST | Straight Tip/Snap Twist
-STP | Shielded Twisted Pair/Spanning Tree Protocol
+ST | Straight Tip<br>Snap Twist
+STP | Shielded Twisted Pair<br>Spanning Tree Protocol
 SXGA | Super Extended Graphics Array
 SYSLOG | System Log
 TACACS | Terminal Access Controller Access-Control System
@@ -399,7 +401,7 @@ TPM | Trusted Platform Module
 TTL | Time to Live
 TX/RX | Transmit and Receive
 UAC | User Account Control
-UDF | User Defined Functions or Universal Disk Format or Universal Data Format
+UDF | User Defined Functions<br>Universal Disk Format<br>Universal Data Format
 UDP | User Datagram Protocol
 UEFI | Unified Extensible Firmware Interface
 UNC | Universal Naming Convention
@@ -421,21 +423,22 @@ VGA | Video Graphics Array
 VIP | Virtual IP
 VLAN | Virtual Local Area Network
 VM | Virtual Machine
-VNC | Virtual Network Computer/Computing
+VNC | Virtual Network Computer<br>Virtual Network Computing
 vNIC | virtual Network Interface Card
 VoIP | Voice over Internet Protocol
 VPN | Virtual Private Network
 VRAM | Video Random Access Memory
 VRRP | Virtual Router Redundancy Protocol
+WAF | Web Application Firewall
 WAN | Wide Area Network
-WAP | Wireless Access Protocol/Wireless Access Point
+WAP | Wireless Access Protocol<br>Wireless Access Point
 WDM | Wavelength Division Multiplexing
 WEP | Wired Equivalent Privacy
 WIFI | Wireless Fidelity
 WINS | Windows Internet Name Service
 WLAN | Wireless Local Area Network
 WMN | Wireless Mesh Network
-WPA | WiFi/Wireless Protected Access
+WPA | WiFi Protected Access<br>Wireless Protected Access
 WPA2 | WiFi Protected Access 2
 WPS | WiFi Protected Setup
 WUXGA | Wide Ultra Extended Graphics Array
