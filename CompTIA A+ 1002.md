@@ -6,7 +6,7 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 
 ### 1.1 Compare and contrast common operating system types and their purposes. 
 
-- [Bit widths](../Concepts/Systems/Bit%20widths.md)
+- [Bit widths](Concepts/Systems/Bit%20widths.md)
 	- RAM limitations 
 	- Software compatibility 
 
@@ -29,12 +29,12 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 
 ### 1.2 Compare and contrast features of Microsoft Windows versions.
 
-- [Windows 7](../Concepts/Systems/Windows%207.md) 
-- [Windows 8.x](../Concepts/Systems/Windows%208.x.md) 
-- [Windows 8.x](../Concepts/Systems/Windows%208.x.md) 
-- [Windows 10](../Concepts/Systems/Windows%2010.md) 
-- [Hardware requirements](../Concepts/Systems/Hardware%20requirements.md)
-- Corporate vs. personal needs ==> [Corporate vs personal needs](../Concepts/Business/Corporate%20vs%20personal%20needs.md)
+- [Windows 7](Concepts/Systems/Windows%207.md) 
+- [Windows 8.x](Concepts/Systems/Windows%208.x.md) 
+- [Windows 8.x](Concepts/Systems/Windows%208.x.md) 
+- [Windows 10](Concepts/Systems/Windows%2010.md) 
+- [Hardware requirements](Concepts/Systems/Hardware%20requirements.md)
+- Corporate vs. personal needs ==> [Corporate vs personal needs](Concepts/Business/Corporate%20vs%20personal%20needs.md)
 	- Domain access 
 	- BitLocker 
 	- Media center 
@@ -44,14 +44,14 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 
 ### 1.3 Summarize general OS installation considerations and upgrade methods. 
 
-- [Boot methods](../Concepts/Systems/Boot%20methods.md)
+- [Boot methods](Concepts/Systems/Boot%20methods.md)
 	- Optical disc (CD-ROM, DVD, Blu-ray) 
 	- External drive/flash drive (USB/eSATA) 
 	- Network boot (PXE) 
 	- Internal fixed disk (HDD/SSD) 
 	- Internal hard drive (partition) 
 
-- [Types of installations](../Concepts/Systems/Types%20of%20installations.md)
+- [Types of installations](Concepts/Systems/Types%20of%20installations.md)
 	- Unattended installation 
 	- In-place upgrade 
 	- Clean install 
@@ -62,7 +62,7 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Recovery partition 
 	- Refresh/restore 
 
-- [Partitioning](../Concepts/Systems/Partitioning.md)
+- [Partitioning](Concepts/Systems/Partitioning.md)
 	- Dynamic 
 	- Basic 
 	- Primary 
@@ -70,7 +70,7 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Logical 
 	- GPT 
 
-- File system types/formatting ==> [Formatting](../Concepts/Systems/Formatting.md)
+- File system types/formatting ==> [Formatting](Concepts/Systems/Formatting.md)
 	- ExFAT 
 	- FAT32 
 	- NTFS 
@@ -81,11 +81,11 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Swap partition 
 	- Quick format vs. full format 
 
-- Load alternate third-party drivers when necessary ==> [More on installing](../Concepts/Systems/More%20on%20installing.md)
+- Load alternate third-party drivers when necessary ==> [More on installing](Concepts/Systems/More%20on%20installing.md)
 - Workgroup vs. Domain setup ==> if you're setting up for a Domain then you need the proper credentials to connect to that network
 - Time/date/region/language settings 
 - Driver installation, software, and Windows updates ==> perform an update after install to make sure you have the latest security patches
-- Factory recovery partition ==> [Partitioning](../Concepts/Systems/Partitioning.md)
+- Factory recovery partition ==> [Partitioning](Concepts/Systems/Partitioning.md)
 - Properly formatted boot drive with the correct partitions/format 
 - Prerequisites/hardware compatibility ==> use Windows 10 Upgrade Checker to ensure the hardware is compatible and you meet the minimum OS requirements 
 - Application compatibility 
@@ -98,63 +98,63 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- `cd` Windows isn't case sensitive so `cd \users` or `cd \Users`
 	- `..` move up (or if Seinfeld, move down)
 - `cls` is the Windows `clear`
-- `ipconfig` ==> [Commands intro](../Concepts/Systems/Commands%20intro.md)
-- `ping` ==> [ping and tracert](../Concepts/Networks/ping%20and%20tracert.md)
-- `tracert` ==> [ping and tracert](../Concepts/Networks/ping%20and%20tracert.md)
-- `netstat` ==> [netstat and nslookup](../Concepts/Networks/netstat%20and%20nslookup.md)
-- `nslookup` ==> [netstat and nslookup](../Concepts/Networks/netstat%20and%20nslookup.md)
+- `ipconfig` ==> [Commands intro](Concepts/Systems/Commands%20intro.md)
+- `ping` ==> [ping and tracert](Concepts/Networks/ping%20and%20tracert.md)
+- `tracert` ==> [ping and tracert](Concepts/Networks/ping%20and%20tracert.md)
+- `netstat` ==> [netstat and nslookup](Concepts/Networks/netstat%20and%20nslookup.md)
+- `nslookup` ==> [netstat and nslookup](Concepts/Networks/netstat%20and%20nslookup.md)
 - `shutdown` ==> [108. shutdown](./108.%20shutdown.md) 
-- [dism](../Concepts/Systems/dism.md)
-- `sfc` ==> [sfc and chkdsk](../Concepts/Systems/sfc%20and%20chkdsk.md)
-- `chkdsk` ==> [sfc and chkdsk](../Concepts/Systems/sfc%20and%20chkdsk.md)
-- `diskpart` ==> [format and diskpart](../Concepts/Systems/format%20and%20diskpart.md)
-- `taskkill` ==> [Commands intro](../Concepts/Systems/Commands%20intro.md)
-- `gpupdate` ==> [gpupdate and gpresult](../Concepts/Networks/gpupdate%20and%20gpresult.md)
-- `gpresult` ==> [gpupdate and gpresult](../Concepts/Networks/gpupdate%20and%20gpresult.md)
-- `format` ==> [format and diskpart](../Concepts/Systems/format%20and%20diskpart.md)
-- `copy` ==> [copy](../Concepts/Systems/copy.md)
-- `xcopy` ==> [copy](../Concepts/Systems/copy.md)
-- `robocopy` ==> [copy](../Concepts/Systems/copy.md)
-- `net use` ==> [net](../Concepts/Networks/net.md)
-- `net user` ==> [net](../Concepts/Networks/net.md)
+- [dism](Concepts/Systems/dism.md)
+- `sfc` ==> [sfc and chkdsk](Concepts/Systems/sfc%20and%20chkdsk.md)
+- `chkdsk` ==> [sfc and chkdsk](Concepts/Systems/sfc%20and%20chkdsk.md)
+- `diskpart` ==> [format and diskpart](Concepts/Systems/format%20and%20diskpart.md)
+- `taskkill` ==> [Commands intro](Concepts/Systems/Commands%20intro.md)
+- `gpupdate` ==> [gpupdate and gpresult](Concepts/Networks/gpupdate%20and%20gpresult.md)
+- `gpresult` ==> [gpupdate and gpresult](Concepts/Networks/gpupdate%20and%20gpresult.md)
+- `format` ==> [format and diskpart](Concepts/Systems/format%20and%20diskpart.md)
+- `copy` ==> [copy](Concepts/Systems/copy.md)
+- `xcopy` ==> [copy](Concepts/Systems/copy.md)
+- `robocopy` ==> [copy](Concepts/Systems/copy.md)
+- `net use` ==> [net](Concepts/Networks/net.md)
+- `net user` ==> [net](Concepts/Networks/net.md)
 - `[command name] /?` or `help [command name]`
-- Commands available with standard privileges vs. administrative privileges ==> [Commands intro](../Concepts/Systems/Commands%20intro.md)
+- Commands available with standard privileges vs. administrative privileges ==> [Commands intro](Concepts/Systems/Commands%20intro.md)
 
 ### 1.5 Given a scenario, use Microsoft operating system features and tools. 
 
 - Administrative 
-	- Computer Management ==> [mmc](../Concepts/Systems/mmc.md)
-	- Device Manager ==> [devmgmt.msc](../Concepts/Systems/devmgmt.msc.md)
-	- [Local Users and Groups](../Concepts/Systems/Local%20Users%20and%20Groups.md) 
-	- [Local Security Policy](../Concepts/Security/Local%20Security%20Policy.md)
-	- Performance Monitor ==> [perfmon](../Concepts/Systems/perfmon.md)
-	- Services ==> [services.msc](../Concepts/Systems/services.msc.md)
-	- System Configuration ==> [MSConfig](../Concepts/Systems/MSConfig.md)
-	- [Task Scheduler](../Concepts/Systems/Task%20Scheduler.md)
-	- [Component Services](../Concepts/Systems/Component%20Services.md)
-	- [Data Sources](../Concepts/Systems/Data%20Sources.md)
-	- [Print Management](../Concepts/Systems/Print%20Management.md)
-	- Windows Memory Diagnostics ==> [Memory Diagnostics](../Concepts/Systems/Memory%20Diagnostics.md)
-	- Windows Firewall ==> [Firewall](../Concepts/Security/Firewall.md)
-	- Advanced Security ==> [Firewall](../Concepts/Security/Firewall.md)
-	- [Event Viewer](../Concepts/Systems/Event%20Viewer.md)
+	- Computer Management ==> [mmc](Concepts/Systems/mmc.md)
+	- Device Manager ==> [devmgmt.msc](Concepts/Systems/devmgmt.msc.md)
+	- [Local Users and Groups](Concepts/Systems/Local%20Users%20and%20Groups.md) 
+	- [Local Security Policy](Concepts/Security/Local%20Security%20Policy.md)
+	- Performance Monitor ==> [perfmon](Concepts/Systems/perfmon.md)
+	- Services ==> [services.msc](Concepts/Systems/services.msc.md)
+	- System Configuration ==> [MSConfig](Concepts/Systems/MSConfig.md)
+	- [Task Scheduler](Concepts/Systems/Task%20Scheduler.md)
+	- [Component Services](Concepts/Systems/Component%20Services.md)
+	- [Data Sources](Concepts/Systems/Data%20Sources.md)
+	- [Print Management](Concepts/Systems/Print%20Management.md)
+	- Windows Memory Diagnostics ==> [Memory Diagnostics](Concepts/Systems/Memory%20Diagnostics.md)
+	- Windows Firewall ==> [Firewall](Concepts/Security/Firewall.md)
+	- Advanced Security ==> [Firewall](Concepts/Security/Firewall.md)
+	- [Event Viewer](Concepts/Systems/Event%20Viewer.md)
 	- User Account Management
 
-- [MSConfig](../Concepts/Systems/MSConfig.md)
+- [MSConfig](Concepts/Systems/MSConfig.md)
 	- General 
 	- Boot 
 	- Services 
 	- Startup 
 	- Tools 
 
-- [Task Manager](../Concepts/Systems/Task%20Manager.md)
+- [Task Manager](Concepts/Systems/Task%20Manager.md)
 	- Applications 
 	- Processes 
 	- Performance 
 	- Networking 
 	- Users 
 
-- [Disk Management](../Concepts/Systems/Disk%20Management.md)
+- [Disk Management](Concepts/Systems/Disk%20Management.md)
 	- Drive status 
 	- Mounting 
 	- Initializing 
@@ -163,26 +163,26 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Shrink partitions 
 	- Assigning/changing drive letters 
 	- Adding drives 
-	- [Adding arrays](../Concepts/Systems/Adding%20arrays.md)
-	- [Storage spaces](../Concepts/Cloud/Storage%20spaces.md)
+	- [Adding arrays](Concepts/Systems/Adding%20arrays.md)
+	- [Storage spaces](Concepts/Cloud/Storage%20spaces.md)
 
 - System utilities 
-	- Regedit ==> [regedit](../Concepts/Systems/regedit.md)
+	- Regedit ==> [regedit](Concepts/Systems/regedit.md)
 	- Command 
-	- Services.msc ==> [services.msc](../Concepts/Systems/services.msc.md)
-	- MMC ==> [mmc](../Concepts/Systems/mmc.md)
-	- MSTSC ==> [mstsc](../Concepts/Systems/mstsc.md)
+	- Services.msc ==> [services.msc](Concepts/Systems/services.msc.md)
+	- MMC ==> [mmc](Concepts/Systems/mmc.md)
+	- MSTSC ==> [mstsc](Concepts/Systems/mstsc.md)
 	- Notepad ==> text editor where you can view and edit log files for example
 	- Explorer ==> Windows Explorer renamed to File Explorer in Windows 10; change permissions, access network resources/modify files in a share...
-	- Msinfo32 ==> [msinfo32](../Concepts/Systems/msinfo32.md)
-	- DxDiag ==> [dxdiag](../Concepts/Systems/dxdiag.md)
-	- Disk Defragmenter ==> [defrag](../Concepts/Systems/defrag.md)
-	- [System Restore](../Concepts/Systems/System%20Restore.md)
-	- [Windows Update](../Concepts/Systems/Windows%20Update.md)
+	- Msinfo32 ==> [msinfo32](Concepts/Systems/msinfo32.md)
+	- DxDiag ==> [dxdiag](Concepts/Systems/dxdiag.md)
+	- Disk Defragmenter ==> [defrag](Concepts/Systems/defrag.md)
+	- [System Restore](Concepts/Systems/System%20Restore.md)
+	- [Windows Update](Concepts/Systems/Windows%20Update.md)
 
 ### 1.6 Given a scenario, use Microsoft Windows Control Panel utilities.
 
-- [Internet Options](../Concepts/Systems/Internet%20Options.md)
+- [Internet Options](Concepts/Systems/Internet%20Options.md)
 	- Connections 
 	- Security 
 	- General 
@@ -190,167 +190,167 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Programs 
 	- Advanced 
 
-- Display/Display Settings ==> [Display](../Concepts/Systems/Display.md)
+- Display/Display Settings ==> [Display](Concepts/Systems/Display.md)
 	- Resolution 
 	- Color depth 
 	- Refresh rate 
 
-- [User Accounts](../Concepts/Systems/User%20Accounts.md)
+- [User Accounts](Concepts/Systems/User%20Accounts.md)
 
-- [Folder Options](../Concepts/Systems/Folder%20Options.md)
+- [Folder Options](Concepts/Systems/Folder%20Options.md)
 	- View hidden files 
 	- Hide extensions 
 	- General options 
 	- View options 
 
-- [System](../Concepts/Systems/System.md)
+- [System](Concepts/Systems/System.md)
 	- Performance (virtual memory) 
 	- Remote settings 
 	- System protection 
 
-- Windows Firewall ==> [Firewall](../Concepts/Security/Firewall.md)
+- Windows Firewall ==> [Firewall](Concepts/Security/Firewall.md)
 
-- [Power Options](../Concepts/Systems/Power%20Options.md)
+- [Power Options](Concepts/Systems/Power%20Options.md)
 	- Hibernate 
 	- Power plans 
 	- Sleep/suspend 
 	- Standby 
 
-- [Credential Manager](../Concepts/Security/Credential%20Manager.md)
-- [Programs and features](../Concepts/Systems/Programs%20and%20features.md)
-- [HomeGroup](../Concepts/Networks/HomeGroup.md)
-- [Devices and Printers](../Concepts/Systems/Devices%20and%20Printers.md)
+- [Credential Manager](Concepts/Security/Credential%20Manager.md)
+- [Programs and features](Concepts/Systems/Programs%20and%20features.md)
+- [HomeGroup](Concepts/Networks/HomeGroup.md)
+- [Devices and Printers](Concepts/Systems/Devices%20and%20Printers.md)
 - Sound ==> settings for output and input options, and you can configure the line levels for each individual device
-- [Troubleshooting](../Concepts/Systems/Troubleshooting.md)
-- [Network and Sharing Center](../Concepts/Networks/Network%20and%20Sharing%20Center.md)
-- [Device Manager](../Concepts/Systems/Device%20Manager.md)
-- [BitLocker](../Concepts/Security/BitLocker.md)
-- [Sync Center](../Concepts/Networks/Sync%20Center.md)
+- [Troubleshooting](Concepts/Systems/Troubleshooting.md)
+- [Network and Sharing Center](Concepts/Networks/Network%20and%20Sharing%20Center.md)
+- [Device Manager](Concepts/Systems/Device%20Manager.md)
+- [BitLocker](Concepts/Security/BitLocker.md)
+- [Sync Center](Concepts/Networks/Sync%20Center.md)
 
 ### 1.7 Summarize application installation and configuration concepts. 
 
-- System requirements ==> [App install requirements](../Concepts/Systems/App%20install%20requirements.md)
+- System requirements ==> [App install requirements](Concepts/Systems/App%20install%20requirements.md)
 	- Drive space 
 	- RAM 
 
-- OS requirements ==> [App install requirements](../Concepts/Systems/App%20install%20requirements.md)
+- OS requirements ==> [App install requirements](Concepts/Systems/App%20install%20requirements.md)
 	- Compatibility 
 
-- Methods of installation and deployment ==> [Install methods](../Concepts/Systems/Install%20methods.md)
+- Methods of installation and deployment ==> [Install methods](Concepts/Systems/Install%20methods.md)
 	- Local (CD/USB) 
 	- Network-based 
 
-- [Local user permissions](../Concepts/Security/Local%20user%20permissions.md)
+- [Local user permissions](Concepts/Security/Local%20user%20permissions.md)
 	- Folder/file access for installation 
 
-- [Security considerations](../Concepts/Security/Security%20considerations.md)
+- [Security considerations](Concepts/Security/Security%20considerations.md)
 	- Impact to device 
 	- Impact to network
 
 ### 1.8 Given a scenario, configure Microsoft Windows networking on a client/desktop.
 
-- [HomeGroup](../Concepts/Networks/HomeGroup.md) vs. [WorkGroup](../Concepts/Networks/WorkGroup.md)
-- Domain setup ==> [Domain](../Concepts/Networks/Domain.md)
-- Network shares/administrative shares/mapping drives ==> [Network shares](../Concepts/Networks/Network%20shares.md) and [Mapping drives](../Concepts/Networks/Mapping%20drives.md)
-- Printer sharing vs. network printer mapping ==> [Printer sharing](../Concepts/Networks/Printer%20sharing.md)
+- [HomeGroup](Concepts/Networks/HomeGroup.md) vs. [WorkGroup](Concepts/Networks/WorkGroup.md)
+- Domain setup ==> [Domain](Concepts/Networks/Domain.md)
+- Network shares/administrative shares/mapping drives ==> [Network shares](Concepts/Networks/Network%20shares.md) and [Mapping drives](Concepts/Networks/Mapping%20drives.md)
+- Printer sharing vs. network printer mapping ==> [Printer sharing](Concepts/Networks/Printer%20sharing.md)
 
-- Establish networking connections ==> [Network and Sharing Center](../Concepts/Networks/Network%20and%20Sharing%20Center.md)
-	- VPN ==> [VPN](../Concepts/Networks/VPN.md)
-	- Dial-ups ==> [Dial-ups](../Concepts/Networks/Dial-ups.md)
-	- Wireless ==> [Wireless](../Concepts/Networks/Wireless.md)
-	- Wired ==> [Wired](../Concepts/Networks/Wired.md)
-	- WWAN (Cellular) ==> [WWAN](../Concepts/Networks/WWAN.md)
+- Establish networking connections ==> [Network and Sharing Center](Concepts/Networks/Network%20and%20Sharing%20Center.md)
+	- VPN ==> [VPN](Concepts/Networks/VPN.md)
+	- Dial-ups ==> [Dial-ups](Concepts/Networks/Dial-ups.md)
+	- Wireless ==> [Wireless](Concepts/Networks/Wireless.md)
+	- Wired ==> [Wired](Concepts/Networks/Wired.md)
+	- WWAN (Cellular) ==> [WWAN](Concepts/Networks/WWAN.md)
 
-- Proxy settings ==> [Proxy settings](../Concepts/Networks/Proxy%20settings.md)
-- Remote Desktop Connection ==> [Remote Desktop Connection](../Concepts/Networks/Remote%20Desktop%20Connection.md)
-- Remote Assistance ==> [Remote Assistance](../Concepts/Networks/Remote%20Assistance.md)
-- Home vs. Work vs. Public network settings ==> [Home vs. Work vs. Public](../Concepts/Networks/Home%20vs.%20Work%20vs.%20Public.md)
-- Firewall settings ==> [Firewall advanced](../Concepts/Networks/Firewall%20advanced.md)
+- Proxy settings ==> [Proxy settings](Concepts/Networks/Proxy%20settings.md)
+- Remote Desktop Connection ==> [Remote Desktop Connection](Concepts/Networks/Remote%20Desktop%20Connection.md)
+- Remote Assistance ==> [Remote Assistance](Concepts/Networks/Remote%20Assistance.md)
+- Home vs. Work vs. Public network settings ==> [Home vs. Work vs. Public](Concepts/Networks/Home%20vs.%20Work%20vs.%20Public.md)
+- Firewall settings ==> [Firewall advanced](Concepts/Networks/Firewall%20advanced.md)
 	- Exceptions 
 	- Configuration 
 	- Enabling/disabling Windows Firewall 
 
-- Configuring an alternative IP address in Windows ==> [IP address](../Concepts/Networks/IP%20address.md)
+- Configuring an alternative IP address in Windows ==> [IP address](Concepts/Networks/IP%20address.md)
 	- IP addressing 
 	- Subnet mask 
 	- DNS 
 	- Gateway 
 
 - Network card properties 
-	- Half duplex/full duplex/auto ==> [Link speed and duplex](../Concepts/Networks/Link%20speed%20and%20duplex.md)
-	- Speed ==> [Link speed and duplex](../Concepts/Networks/Link%20speed%20and%20duplex.md)
-	- Wake-on-LAN ==> [Wake-on-LAN](../Concepts/Networks/Wake-on-LAN.md)
-	- QoS ==> [QoS](../Concepts/Networks/QoS.md)
-	- BIOS (on-board NIC) ==> [BIOS](../Concepts/Networks/BIOS.md)
+	- Half duplex/full duplex/auto ==> [Link speed and duplex](Concepts/Networks/Link%20speed%20and%20duplex.md)
+	- Speed ==> [Link speed and duplex](Concepts/Networks/Link%20speed%20and%20duplex.md)
+	- Wake-on-LAN ==> [Wake-on-LAN](Concepts/Networks/Wake-on-LAN.md)
+	- QoS ==> [QoS](Concepts/Networks/QoS.md)
+	- BIOS (on-board NIC) ==> [BIOS](Concepts/Networks/BIOS.md)
 
 ### 1.9 Given a scenario, use features and tools of the Mac OS and Linux client/desktop operating systems. 
 
 - Best practices 
-	- Scheduled backups ==> [Time Machine](../Concepts/Systems/Time%20Machine.md)
-	- Scheduled disk maintenance ==> [Disk Utility](../Concepts/Systems/Disk%20Utility.md) and [Disk maintenance](../Concepts/Systems/Disk%20maintenance.md)
-	- System updates/App Store ==> [App Store](../Concepts/Systems/App%20Store.md) and [apt-get and yum](../Concepts/Systems/apt-get%20and%20yum.md)
-	- Patch management ==> [App Store](../Concepts/Systems/App%20Store.md) and [apt-get and yum](../Concepts/Systems/apt-get%20and%20yum.md)
-	- Driver/firmware updates ==> [System Information](../Concepts/Systems/System%20Information.md) and [apt-get and yum](../Concepts/Systems/apt-get%20and%20yum.md)
-	- Antivirus/Anti-malware updates ==> [Antivirus](../Concepts/Security/Antivirus.md)
+	- Scheduled backups ==> [Time Machine](Concepts/Systems/Time%20Machine.md)
+	- Scheduled disk maintenance ==> [Disk Utility](Concepts/Systems/Disk%20Utility.md) and [Disk maintenance](Concepts/Systems/Disk%20maintenance.md)
+	- System updates/App Store ==> [App Store](Concepts/Systems/App%20Store.md) and [apt-get and yum](Concepts/Systems/apt-get%20and%20yum.md)
+	- Patch management ==> [App Store](Concepts/Systems/App%20Store.md) and [apt-get and yum](Concepts/Systems/apt-get%20and%20yum.md)
+	- Driver/firmware updates ==> [System Information](Concepts/Systems/System%20Information.md) and [apt-get and yum](Concepts/Systems/apt-get%20and%20yum.md)
+	- Antivirus/Anti-malware updates ==> [Antivirus](Concepts/Security/Antivirus.md)
 - Tools 
-	- Backup/Time Machine ==> [Time Machine](../Concepts/Systems/Time%20Machine.md)
-	- Restore/Snapshot ==> [Time Machine](../Concepts/Systems/Time%20Machine.md)
-	- Image recovery ==> [Disk Utility](../Concepts/Systems/Disk%20Utility.md)
-	- Disk maintenance utilities ==> [Disk Utility](../Concepts/Systems/Disk%20Utility.md)
-	- Shell/Terminal ==> [Terminal](../Concepts/Systems/Terminal.md)
-	- [Screen sharing](../Concepts/Systems/Screen%20sharing.md)
-	- [Force Quit](../Concepts/Systems/Force%20Quit.md)
+	- Backup/Time Machine ==> [Time Machine](Concepts/Systems/Time%20Machine.md)
+	- Restore/Snapshot ==> [Time Machine](Concepts/Systems/Time%20Machine.md)
+	- Image recovery ==> [Disk Utility](Concepts/Systems/Disk%20Utility.md)
+	- Disk maintenance utilities ==> [Disk Utility](Concepts/Systems/Disk%20Utility.md)
+	- Shell/Terminal ==> [Terminal](Concepts/Systems/Terminal.md)
+	- [Screen sharing](Concepts/Systems/Screen%20sharing.md)
+	- [Force Quit](Concepts/Systems/Force%20Quit.md)
 - Features 
-	- Multiple desktops/Mission Control ==> [Mission Control](../Concepts/Systems/Mission%20Control.md)
-	- [Keychain](../Concepts/Security/Keychain.md)
-	- [Spotlight](../Concepts/Systems/Spotlight.md)
-	- [iCloud](../Concepts/Cloud/iCloud.md)
-	- Gestures ==> [Mission Control](../Concepts/Systems/Mission%20Control.md)
-	- [Finder](../Concepts/Systems/Finder.md)
-	- [Remote Disc](../Concepts/Systems/Remote%20Disc.md)
-	- [Dock](../Concepts/Systems/Dock.md)
-	- [Boot Camp](../Concepts/Systems/Boot%20Camp.md)
+	- Multiple desktops/Mission Control ==> [Mission Control](Concepts/Systems/Mission%20Control.md)
+	- [Keychain](Concepts/Security/Keychain.md)
+	- [Spotlight](Concepts/Systems/Spotlight.md)
+	- [iCloud](Concepts/Cloud/iCloud.md)
+	- Gestures ==> [Mission Control](Concepts/Systems/Mission%20Control.md)
+	- [Finder](Concepts/Systems/Finder.md)
+	- [Remote Disc](Concepts/Systems/Remote%20Disc.md)
+	- [Dock](Concepts/Systems/Dock.md)
+	- [Boot Camp](Concepts/Systems/Boot%20Camp.md)
 
 - Basic Linux commands 
-	- ls ==> [Unix commands intro](../Concepts/Systems/Unix%20commands%20intro.md)
-	- grep ==> [Unix commands intro](../Concepts/Systems/Unix%20commands%20intro.md)
-	- cd ==> [Unix commands intro](../Concepts/Systems/Unix%20commands%20intro.md)
-	- [shutdown](../Concepts/Systems/shutdown.md)
-	- pwd vs. passwd ==> [Unix commands intro](../Concepts/Systems/Unix%20commands%20intro.md) vs. [passwd](../Concepts/Systems/passwd.md)
-	- mv ==> [Files and folders](../Concepts/Systems/Files%20and%20folders.md)
-	- cp ==> [Files and folders](../Concepts/Systems/Files%20and%20folders.md)
-	- rm ==> [Files and folders](../Concepts/Systems/Files%20and%20folders.md)
-	- [chmod](../Concepts/Systems/chmod.md)
-	- [chown](../Concepts/Systems/chown.md)
-	- [iwconfig and ifconfig](../Concepts/Networks/iwconfig%20and%20ifconfig.md)
-	- [ps](../Concepts/Systems/ps.md)
-	- [su and sudo](../Concepts/Systems/su%20and%20sudo.md)
-	- [apt-get](../Concepts/Systems/apt-get.md)
-	- [vi](../Concepts/Systems/vi.md)
-	- [dd](../Concepts/Systems/dd.md)
-	- [kill](../Concepts/Systems/kill.md)
+	- ls ==> [Unix commands intro](Concepts/Systems/Unix%20commands%20intro.md)
+	- grep ==> [Unix commands intro](Concepts/Systems/Unix%20commands%20intro.md)
+	- cd ==> [Unix commands intro](Concepts/Systems/Unix%20commands%20intro.md)
+	- [shutdown](Concepts/Systems/shutdown.md)
+	- pwd vs. passwd ==> [Unix commands intro](Concepts/Systems/Unix%20commands%20intro.md) vs. [passwd](Concepts/Systems/passwd.md)
+	- mv ==> [Files and folders](Concepts/Systems/Files%20and%20folders.md)
+	- cp ==> [Files and folders](Concepts/Systems/Files%20and%20folders.md)
+	- rm ==> [Files and folders](Concepts/Systems/Files%20and%20folders.md)
+	- [chmod](Concepts/Systems/chmod.md)
+	- [chown](Concepts/Systems/chown.md)
+	- [iwconfig and ifconfig](Concepts/Networks/iwconfig%20and%20ifconfig.md)
+	- [ps](Concepts/Systems/ps.md)
+	- [su and sudo](Concepts/Systems/su%20and%20sudo.md)
+	- [apt-get](Concepts/Systems/apt-get.md)
+	- [vi](Concepts/Systems/vi.md)
+	- [dd](Concepts/Systems/dd.md)
+	- [kill](Concepts/Systems/kill.md)
 
 ## 2.0 Security
 
 ### 2.1 Summarize the importance of physical security measures.
 
-- Access control vestibule ==> [Entrance security](../Concepts/Security/Entrance%20security.md)
-- Badge reader ==> [Entrance security](../Concepts/Security/Entrance%20security.md)
-- Smart card ==> [Tokens](../Concepts/Security/Tokens.md)
-- Security guard ==> [Entrance security](../Concepts/Security/Entrance%20security.md)
-- Door lock ==> [Door locks](../Concepts/Security/Door%20locks.md)
-- Biometric locks ==> [Door locks](../Concepts/Security/Door%20locks.md)
-- Hardware tokens ==> [Tokens](../Concepts/Security/Tokens.md)
-- Cable locks ==> [Other physical measures](../Concepts/Security/Other%20physical%20measures.md)
-- Server locks ==> [Other physical measures](../Concepts/Security/Other%20physical%20measures.md)
-- USB locks ==> [Other physical measures](../Concepts/Security/Other%20physical%20measures.md)
-- Privacy screen ==> [Other physical measures](../Concepts/Security/Other%20physical%20measures.md)
-- Key fobs ==> [Door locks](../Concepts/Security/Door%20locks.md)
-- Entry control roster ==> [Entrance security](../Concepts/Security/Entrance%20security.md)
+- Access control vestibule ==> [Entrance security](Concepts/Security/Entrance%20security.md)
+- Badge reader ==> [Entrance security](Concepts/Security/Entrance%20security.md)
+- Smart card ==> [Tokens](Concepts/Security/Tokens.md)
+- Security guard ==> [Entrance security](Concepts/Security/Entrance%20security.md)
+- Door lock ==> [Door locks](Concepts/Security/Door%20locks.md)
+- Biometric locks ==> [Door locks](Concepts/Security/Door%20locks.md)
+- Hardware tokens ==> [Tokens](Concepts/Security/Tokens.md)
+- Cable locks ==> [Other physical measures](Concepts/Security/Other%20physical%20measures.md)
+- Server locks ==> [Other physical measures](Concepts/Security/Other%20physical%20measures.md)
+- USB locks ==> [Other physical measures](Concepts/Security/Other%20physical%20measures.md)
+- Privacy screen ==> [Other physical measures](Concepts/Security/Other%20physical%20measures.md)
+- Key fobs ==> [Door locks](Concepts/Security/Door%20locks.md)
+- Entry control roster ==> [Entrance security](Concepts/Security/Entrance%20security.md)
 
 ### 2.2 Explain logical security concepts. 
 
-- [Active Directory](../Concepts/Security/Active%20Directory.md)
+- [Active Directory](Concepts/Security/Active%20Directory.md)
 	- Login script 
 	- Domain 
 	- Group Policy/Updates 
@@ -359,11 +359,11 @@ These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.
 	- Folder redirection 
 
 - Software tokens 
-- MDM policies ==> [MDM](../Concepts/Security/MDM.md)
-- [Port security](../Concepts/Security/Port%20security.md)
-- MAC address filtering ==> [MAC filtering](../Concepts/Security/MAC%20filtering.md)
-- [Certificates](../Concepts/Security/Certificates.md)
-- Antivirus/Anti-malware ==> [Security admin](../Concepts/Security/Security%20admin.md)
+- MDM policies ==> [MDM](Concepts/Security/MDM.md)
+- [Port security](Concepts/Security/Port%20security.md)
+- MAC address filtering ==> [MAC filtering](Concepts/Security/MAC%20filtering.md)
+- [Certificates](Concepts/Security/Certificates.md)
+- Antivirus/Anti-malware ==> [Security admin](Concepts/Security/Security%20admin.md)
 - Firewalls
 - User authentication/strong passwords 
 - Multifactor authentication 
