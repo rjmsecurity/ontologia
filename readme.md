@@ -19,7 +19,7 @@ I have six ways to organize these concepts so far. Six organizations. Frameworks
 - [WGU](WGU.md)
 - [TryHackMe](TryHackMe.md)
 - [Fundamentals every security pro should know](Fundamentals.md)
-- [A table of hundreds of acronyms, each linking to its underlying concept](Acronyms1.md)
+- [A table of hundreds of acronyms, each linking to its underlying concept](Acronyms.md)
 
 ---
 
