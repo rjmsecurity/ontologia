@@ -1,6 +1,6 @@
 # CompTIA A+ Core 1 (220-1001)
 
-These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.jp/pdf/comptia-a-220-1001-exam-objectives.pdf). Read more [about the A+](CompTIA%20A+%201000%20series.md) or see what [resources I used](Resources.md).
+These objectives are copied from [CompTIA's objectives PDF](https://www.comptia.jp/pdf/comptia-a-220-1001-exam-objectives.pdf). Read more [about the A+](CompTIA%20A+%20hardware%20and%20software.md) or see what [resources I used](Resources.md).
 
 ## 1.0 Mobile Devices
 ### 1.1 Given a scenario, install and configure laptop hardware and components.
