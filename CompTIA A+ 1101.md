@@ -677,7 +677,7 @@ Standard | Frequencies | Maximum MIMO streams | Max theoretical throughput (per 
 	- 2.4GHz vs. 5GHz  
 - Bluetooth  
 
-### 2.3 Given a scenario, install and configure a basic wired/wireless SOHO network.
+<!-- ### 2.3 Given a scenario, install and configure a basic wired/wireless SOHO network.
 - Router/switch functionality
 - Access point settings 
 - IP addressing
@@ -703,7 +703,7 @@ Standard | Frequencies | Maximum MIMO streams | Max theoretical throughput (per 
 - Wireless settings
 	- Encryption
 	- Channels
-	- QoS
+	- QoS -->
 
 ==REMINDER: One section at a time, copy over the 1101 objectives to here==
 
