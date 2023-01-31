@@ -434,7 +434,6 @@ WAN | Wide Area Network
 WAP | Wireless Access Protocol<br>Wireless Access Point
 WDM | Wavelength Division Multiplexing
 WEP | Wired Equivalent Privacy
-WIFI | Wireless Fidelity
 WINS | Windows Internet Name Service
 WLAN | Wireless Local Area Network
 WMN | Wireless Mesh Network

@@ -12,8 +12,8 @@ Instead, put a thousand bite-sized concepts in [/Concepts](Concepts/). Link to t
 I have six ways to organize these concepts so far. Six organizations. Frameworks. 
 
 - The CompTIA A+
-	- [CompTIA A+ 1001](CompTIA%20A+%201001.md)
-	- [CompTIA A+ 1002](CompTIA%20A+%201002.md)
+	- [CompTIA A+ 1101](CompTIA%20A+%201101.md)
+	- [CompTIA A+ 1102](CompTIA%20A+%201102.md)
 	- [CompTIA A+ hardware and software](CompTIA%20A+%20hardware%20and%20software.md)
 - [The CompTIA Network+](CompTIA%20Network+%20N10-008.md)
 - [WGU](WGU.md)
