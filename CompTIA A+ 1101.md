@@ -355,6 +355,7 @@ These objectives are copied from [CompTIA's objectives PDF](https://partners.com
 	* SOHO routers are a type of multipurpose networking device, combining the functionality of a switch, router, WAP, firewall... 
 		* single-purpose devices are usually found in data centers 
 	* routers can connect IP subnets using the same topology and routers can connect different types of networks—the interfaces on a router might connect LAN, WAN, copper, fiber
+
 ![network switch symbol](https://upload.wikimedia.org/wikipedia/commons/6/69/Switch_symbol-Blue.svg)
 * **Switches ⟹** forwards traffic based on destination *MAC address*, or data link address, inside of a frame
 	* forwards at high rates of speed because a lot of the forwarding is done in the hardware itself; many switches have an **Application-specific integrated circuit (ASIC)** which allows for very fast throughput; "bridging is done in the hardware"
@@ -561,6 +562,7 @@ These objectives are copied from [CompTIA's objectives PDF](https://partners.com
 * many updates over time, check with IEEE for the latest
 * instead of referring to them as 802.11 wireless networks, you can call it a **Wi-Fi** network
 	* this is a trademark from the Wi-Fi Alliance who is responsible for testing the interoperability of all of these different wireless devices
+
 Standard | Frequencies | Maximum MIMO streams | Max theoretical throughput (per stream) | Max theoretical throughput (total)
 -- | - | - | - | -
 802.11a | 5 GHz | No MIMO support | 54 Mbit/s | 54 Mbit/s
@@ -569,7 +571,9 @@ Standard | Frequencies | Maximum MIMO streams | Max theoretical throughput (per 
 802.11n | 5 GHz / 2.4 GHz | 4 x MIMO | 150 Mbit/s | 600 Mbit/s
 802.11ac | 5 GHz | 8 x DL MU-MIMO | 867 Mbit/s | 6.9 Gbit/s
 802.11ax | 5 GHz / 2.4 GHz | 8 x DL and UL MU-MIMO | 1,201 Mbit/s | 9.6 Gbit/s
+
 \*DL means downloadable streams, UL means upload streams (*802.11ac supports 8 downloadable streams of multi-user multi-input multi-output*; *802.11ax supports 8 streams but the multi-user MIMO in ax supports 8 download AND upload streams simultaneously*)
+
 * **802.11a ⟹** one of the very first wireless standards, released Oct 1999
 	* operates in the **5 GHz** frequency range
 	* can use other frequency ranges with special licensing

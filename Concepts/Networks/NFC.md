@@ -13,8 +13,8 @@
 		* useful at hospital or warehouse if you use a laptop only occasionally and need to quickly authenticate
 	* as an access device/token/card that supports encryption and uses NFC; hold it up to a sensor and unlock an electronic door
 
----
-
-#aplus **1.1** *Given a scenario, install and configure laptop hardware and components.*
-#aplus **1.3** *Given a scenario, set up and configure accessories and ports of mobile devices.*
-#aplus **2.3** *Compare and contrast protocols for wireless networking.*
+#aplus 
+<!-- aplus:
+1.1 Given a scenario, install and configure laptop hardware and components.
+1.3 Given a scenario, set up and configure accessories and ports of mobile devices.
+2.3 Compare and contrast protocols for wireless networking. -->
